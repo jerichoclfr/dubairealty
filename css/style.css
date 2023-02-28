@@ -1,0 +1,173 @@
+/* Reset */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+[class*="__container"] {
+    max-width: 1770px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #272727;
+    color: #FFFFFF;
+    font-family: WorkSans;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.header { }
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.header__logo {
+    min-width: 335px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 0 0 15px;
+}
+
+.header__logo::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 63px;
+    left: -2px;
+    top: -6px;
+    border: #FCD54C solid 2px;
+    border-right: none;
+}
+
+.header__top { 
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header__bottom {
+    font-size: 11px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.header__menu { 
+    flex: 1 1 auto;
+}
+
+.menu { }
+
+.menu__list { 
+    display: flex;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu__item { 
+    display: block;
+    height: 109px;
+    padding: 0 50px 0 0;
+}
+
+.menu__link {
+    line-height: 109px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.menu__list:first-child::after {
+    content: '';
+    position: absolute;
+
+    right: 0;
+    bottom: -3px;
+    background: #FCD54C;
+}
+
+.menu__link:hover {
+    color: #FCD54C;
+}
+
+.menu__link:hover::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -3px;
+    background: #FCD54C;
+
+}
+
+.header__button { }
+
+.button { 
+    min-width: 165px;
+    background-color: #FCD54C;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    padding: 12px 0;
+    
+}
+
+.button__text { }
+
+.header__lang-switcher {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    height: 20px;
+    width: 50px;
+    align-items: center;
+    padding: 0 0 0 120px;
+}
+
+.header__lang-span {
+    padding: 0 4px;
+    color: #757575;
+}
+
+.header__lang-span:hover {
+    color: #FCD54C;
+}
+
+.header__phone-number { 
+    min-width: 180px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 0 0 53px;
+}
+
+
+/* Page */
+.page { }
+
+/* Footer */
+.footer { }
+

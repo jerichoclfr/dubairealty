@@ -1,0 +1,63 @@
+
+/* SpaceGrotesk */
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url(../fonts/spacegrotesk/SpaceGrotesk-Bold.eot);
+    src: url(../fonts/spacegrotesk/SpaceGrotesk-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/spacegrotesk/SpaceGrotesk-Bold.otf) format('otf'), url(../fonts/spacegrotesk/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold) format('svg'), url(../fonts/spacegrotesk/SpaceGrotesk-Bold.ttf) format('truetype'), url(../fonts/spacegrotesk/SpaceGrotesk-Bold.woff2) format('woff2');
+    font-weight: 700;
+  }
+
+/* WorkSans */
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(../fonts/worksans/WorkSans-Light.eot);
+    src: url(../fonts/worksans/WorkSans-Light.eot?#iefix) format('embedded-opentype') , url(../fonts/worksans/WorkSans-Light.otf) format('otf') , url(../fonts/worksans/WorkSans-Light.svg#WorkSans-Light) format('svg') , url(../fonts/worksans/WorkSans-Light.ttf) format('truetype') , url(../fonts/worksans/WorkSans-Light.woff2) format('woff2');
+    font-weight: 200;
+  }  
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(../fonts/worksans/WorkSans-Regular.eot);
+    src: url(../fonts/worksans/WorkSans-Regular.eot?#iefix) format('embedded-opentype') , url(../fonts/worksans/WorkSans-Regular.otf) format('otf') , url(../fonts/worksans/WorkSans-Regular.svg#WorkSans-Regular) format('svg') , url(../fonts/worksans/WorkSans-Regular.ttf) format('truetype') , url(../fonts/worksans/WorkSans-Regular.woff2) format('woff2');
+    font-weight: 400;
+  }  
+  
+  @font-face {
+    font-family: 'WorkSans';
+    src: url(../fonts/worksans/WorkSans-SemiBold.eot);
+    src: url(../fonts/worksans/WorkSans-SemiBold.eot?#iefix) format('embedded-opentype') , url(../fonts/worksans/WorkSans-SemiBold.otf) format('otf') , url(../fonts/worksans/WorkSans-SemiBold.svg#WorkSans-SemiBold) format('svg') , url(../fonts/worksans/WorkSans-SemiBold.ttf) format('truetype') , url(../fonts/worksans/WorkSans-SemiBold.woff2) format('woff2');
+    font-weight: 600;
+  }
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(../fonts/worksans/WorkSans-Bold.eot);
+    src: url(../fonts/worksans/WorkSans-Bold.eot?#iefix) format('embedded-opentype') , url(../fonts/worksans/WorkSans-Bold.otf) format('otf') , url(../fonts/worksans/WorkSans-Bold.svg#WorkSans-Bold) format('svg') , url(../fonts/worksans/WorkSans-Bold.ttf) format('truetype') , url(../fonts/worksans/WorkSans-Bold.woff2) format('woff2');
+    font-weight: 700;
+  }
+
+  /* Gilroy */
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy/Gilroy-Regular.eot);
+    src: url(../fonts/gilroy/Gilroy-Regular.eot?#iefix) format('embedded-opentype') , url(../fonts/gilroy/Gilroy-Regular.otf) format('otf') , url(../fonts/gilroy/Gilroy-Regular.svg#Gilroy-Regular) format('svg') , url(../fonts/gilroy/Gilroy-Regular.ttf) format('truetype') , url(../fonts/gilroy/Gilroy-Regular.woff2) format('woff2');
+    font-weight: 400;
+  }  
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy/Gilroy-SemiBold.eot);
+    src: url(../fonts/gilroy/Gilroy-SemiBold.eot?#iefix) format('embedded-opentype') , url(../fonts/gilroy/Gilroy-SemiBold.otf) format('otf') , url(../fonts/gilroy/Gilroy-SemiBold.svg#Gilroy-SemiBold) format('svg') , url(../fonts/gilroy/Gilroy-SemiBold.ttf) format('truetype') , url(../fonts/gilroy/Gilroy-SemiBold.woff2) format('woff2');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy/Gilroy-Bold.eot);
+    src: url(../fonts/gilroy/Gilroy-Bold.eot?#iefix) format('embedded-opentype') , url(../fonts/gilroy/Gilroy-Bold.otf) format('otf') , url(../fonts/gilroy/Gilroy-Bold.svg#Gilroy-Bold) format('svg') , url(../fonts/gilroy/Gilroy-Bold.ttf) format('truetype') , url(../fonts/gilroy/Gilroy-Bold.woff2) format('woff2');
+    font-weight: 700;
+  }
+  
