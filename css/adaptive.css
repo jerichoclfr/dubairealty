@@ -1,0 +1,27 @@
+@media (max-width:1278px) {
+    .header__menu {
+        flex: 1 1 auto;
+    }
+
+    .menu__list {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 696px;
+    }
+    
+    .logo__top { 
+        font-size: 20px;
+    }
+    
+    .logo__bottom {
+        font-size: 10px;
+    }
+    
+    .menu__list {
+        display: none;
+    }
+}
