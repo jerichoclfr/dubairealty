@@ -9,18 +9,19 @@
 
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
+    <header class="header container">
+        <div class="header__body">
             <a href="#" class="header__logo">
-                <span class="header__top">DubaiRealty</span>
-                <span class="header__bottom">Real Estate </span>
+                <span class="logo__top">DubaiRealty</span>
+                <span class="logo__bottom">Real Estate</span>
             </a>
-            <nav class="header__menu menu">
+            <nav class="header__menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="" class="menu__link">Buy</a>
+                        <a href="" class="menu__link arrow">Buy</a>
                     </li>
                     <li class="menu__item">
                         <a href="" class="menu__link">Blog</a>
@@ -34,8 +35,7 @@
                 </ul>
             </nav>
             <div class="header__button">
-                <button class="button">Book a consultation</button>
-                
+                <button class="button">Book a consultation</button> 
             </div>
             <div class="header__lang-switcher">
                 <a href="" class="header__lang-span">EN</a>
@@ -44,44 +44,85 @@
             <div class="header__phone-number">
                 <a href=“tel:+72126472510”>+7 (212) 647-25-10</a>
             </div>
+            <div class="header__burger">
+                <input id="burger-toggle" type="checkbox" />
+                <label class='header__burger' for="burger-toggle">
+                    <div class='burger-button'></div>
+                </label>
+                <div class="burger__body">
+                    <ul class="burger__menu">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                    <li>Four</li>
+                    <li>Five</li>
+                    </ul>
+                </div>
+            </div>
     </header>
     <main class="main">
-        <section class="slider__container">
-            <div class="slider__social-links social-links">
-                <ul class="social-links__list">
-                    <li class="social-links__item">
-                        <a href="" class="social-links__link">
-                            <img src="img/icons/facebook.svg" alt="" class="social-links__icon">
-                        </a>
-                    </li>
-                    <li class="social-links__item">
-                        <a href="" class="social-links__link">
-                            <img src="img/icons/twitter.svg" alt="" class="social-links__icon">
-                        </a>
-                    </li>
-                    <li class="social-links__item">
-                        <a href="" class="social-links__link">
-                            <img src="img/icons/youtube.svg" alt="" class="social-links__icon">
-                        </a>
-                    </li>
-                    <li class="social-links__item">
-                        <a href="" class="social-links__link">
-                            <img src="img/icons/instagram.svg" alt="" class="social-links__icon">
-                        </a>
-                    </li>
-                    <li class="social-links__item">
-                        <a href="" class="social-links__link">
-                            <img src="img/icons/linkedin.svg" alt="" class="social-links__icon">
-                        </a>
-                    </li>
-                </ul>
+        <section class="slider container">
+            <div class="slider__body">
+                <div class="slider__social-links">
+                    <ul class="social-links__list">
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link">
+                                <img src="img/icons/facebook.svg" alt="" class="social-links__icon">
+                            </a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link">
+                                <img src="img/icons/twitter.svg" alt="" class="social-links__icon">
+                            </a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link">
+                                <img src="img/icons/youtube.svg" alt="" class="social-links__icon">
+                            </a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link">
+                                <img src="img/icons/instagram.svg" alt="" class="social-links__icon">
+                            </a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link">
+                                <img src="img/icons/linkedin.svg" alt="" class="social-links__icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="slider__title">
+                    <div class="title__body">
+                        <p class="title__top-text">Lorem ipsum</p>
+                        <h1 class="title__title">Welcome home <span>to</span> luxury</h1>
+                        <a href="" class="title__button">Book a consultation<img src="img/thin-arrow.svg"></a>
+                    </div>
+                </div>
+                <div class="slider__bottom">
+                    <div class="bottom__left">
+                        <div class="bottom__buttons">
+                            <a href="">Prev</a>
+                            <img src="img/line.svg" alt="">
+                            <a href="">Next</a>
+                        </div>
+                    </div>
+                    <div class="bottom__right">
+                        <div class="right__item">
+                            <div class="item__number">01</div>
+                            <div class="item__text">Lorem Ipsum Dolorem apset</div>
+                        </div>
+                        <div class="right__item">
+                            <div class="item__number">02</div>
+                            <div class="item__text">Lorem Ipsum Dolorem apset</div>
+                        </div>
+                        <div class="right__item">
+                            <div class="item__number">03</div>
+                            <div class="item__text">Lorem Ipsum Dolorem apset</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="title">
-                <p class="title__top-text">Lorem ipsum</p>
-                <h1 class="title__title">Welcome home <span class="title-span">to</span> luxury</h1>
-                <a href="" class="title__button"></a>
-            </div>
-
         </section>
     </main>
     <footer class="footer"></footer>
