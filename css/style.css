@@ -258,7 +258,7 @@ body {
 
 
 .slider__body {
-    background-image: url(/img/slider1.png);
+    background-image: url(img/slider1.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
