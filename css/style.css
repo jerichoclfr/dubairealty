@@ -73,6 +73,7 @@ body {
     color: #000000;
     border: 2px solid #FCD54C;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -130,28 +131,15 @@ body {
 
 .menu__list {
     display: flex;
-    justify-content: flex-start;
     font-family: 'Gilroy';
     font-size: 14px;
     font-weight: 600;
-    column-gap: 45px;
+    gap: 45px;
 }
 
 .menu__item {
     position: relative;
-}
 
-.arrow:after {
-    content: '';
-    position: absolute;
-    top: 6px;
-    right: -16px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 6px 0 6px;
-    border-color: #ffffff transparent transparent transparent;
-    /* Не зміг реалізувати підкреслення стрілки (´。＿。｀) */
 }
 
 .menu__link {
@@ -350,6 +338,7 @@ body {
     line-height: 100px;
     width: 720px;
     text-transform: capitalize;
+    margin: 0 0 28px 0;
 }
 
 .slider__title span {
@@ -364,7 +353,6 @@ body {
     font-weight: 700;
     font-size: 20px;
     width: 216px;
-    padding: 28px 0 0 0;
 }
 
 .slider__bottom {
